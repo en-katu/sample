@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enkatuシステム</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>問題</h1>
+    <p></p>
+    <audio  id="redaudio">
+        <source src="成功音.mp3" >
+      </audio>
+      <audio  id="brueaudio">
+        <source src="爆発.mp3" >
+      </audio>
+   <div class ="red">正<span class="or">or</span><span class ="blue">呉</span> </div>
+   <img class ="redjpg"src="red.jpg" onclick="red()">
+   <img class ="bruepng"src="brue.png"onclick="brue()">
+   
+   <p>
+    <div>解答を提示したいならパスワードを入力してください。</div>
+    <input type="text" id="text">
+    <button onclick="push()">解答提示ボタン</button>
+   </p>
+   <div id="input">----</div>
+   <script src="js/script.js"></script>
+</body>
+</html>

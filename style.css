@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.red{
+    color: red;
+    font-size: 100px;
+}
+.redjpg{
+    width: 150px;
+}
+.bruepng{
+    width: 150px;
+}
+.or{
+    color: black;
+    font-size: 80px;
+}
+.blue{
+    color: blue;
+    font-size: 100px;
+}
